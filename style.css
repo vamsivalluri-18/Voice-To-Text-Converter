@@ -1,0 +1,50 @@
+*,*::after,*::before{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-size: 16px;
+    font-family: arial;
+    background: linear-gradient(45deg, #010758, #490d61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #000;
+}
+.voice_to_text{
+    width: 800px;
+    text-align: center;
+}
+#convert_text {
+    width: 100%;
+    height: 400px;
+    resize: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+
+    /* add these lines: */
+    background-color: #403d84; /* same dark bluish as screenshot */
+    color: #fff;               /* white text inside */
+    border: none;              /* optional: remove default border */
+    outline: none;             /* optional: remove blue outline on focus */
+}
+h1{
+    font-size: 50px;
+    color: #fff;
+}
+button{
+    padding: 12px 20px;
+    border: 0;
+    background: #0ea4da;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+h1 span {
+  color: #ff2963;       /* pink/red for “Converter” */
+}
